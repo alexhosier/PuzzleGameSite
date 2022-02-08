@@ -32,9 +32,9 @@ include "./includes/database.php";
             <table class="table table-dark table-striped table-bordered table-hover">
                 <thead>
                     <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Time</th>
+                        <th class="display-5" scope="col">#</th>
+                        <th class="display-5" scope="col">Name</th>
+                        <th class="display-5" scope="col">Time</th>
                     </tr>
                 </thead>
                 <tbody id="results">

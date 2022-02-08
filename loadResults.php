@@ -11,7 +11,7 @@
     $number = 1;
 
     while($row = $result->fetch_assoc()) {
-        echo '<tr><th scope="row">' . $number . '</th><td>' . $row['play_name'] . '</td><td>' . $row['play_time'] . '</td></tr>';
+        echo '<tr class="display-6"><th scope="row">' . $number . '</th><td>' . $row['play_name'] . '</td><td>' . $row['play_time'] . '</td></tr>';
         $number = $number + 1;
     }
 ?>
