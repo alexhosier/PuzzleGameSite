@@ -1,3 +1,9 @@
+<?php
+
+    include "./includes/database.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
