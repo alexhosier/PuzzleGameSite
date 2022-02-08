@@ -5,6 +5,6 @@ $USER = "USERHERE";
 $PASS = "PASSHERE!";
 $DATA = "DATABASEHERE";
 
-$conn = mysqli_connection($HOST, $USER, $PASS, $DATA);
+$conn = new mysqli($HOST, $USER, $PASS, $DATA);
 
 ?>
