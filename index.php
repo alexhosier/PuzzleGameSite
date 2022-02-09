@@ -37,7 +37,7 @@ include "./includes/database.php";
                     <tr>
                         <th class="display-5 text-center" scope="col">#</th>
                         <th class="display-5 text-center" scope="col">Name</th>
-                        <th class="display-5 text-center" scope="col">Time (min:s:ms)</th>
+                        <th class="display-5 text-center" scope="col">Time (min:s)</th>
                     </tr>
                 </thead>
                 <tbody id="results">
