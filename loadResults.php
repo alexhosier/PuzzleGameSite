@@ -11,7 +11,7 @@
     $number = 1;
 
     while($row = $result->fetch_assoc()) {
-        echo '<tr class="display-6"><th scope="row" class="text-center">' . $number . '</th><td class="text-center">' . $row['play_name'] . '</td><td class="text-center">' . gmdate("i:s:v", $row['play_time']) . '</td></tr>';
+        echo '<tr class="display-6"><th scope="row" class="text-center">' . $number . '</th><td class="text-center">' . $row['play_name'] . '</td><td class="text-center">' . gmdate("i:s", $row['play_time']) . '</td></tr>';
         $number = $number + 1;
     }
 ?>
