@@ -26,15 +26,18 @@ include "./includes/database.php";
 
         <!-- JQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
         <div id="container-fluid">
             <table class="table table-dark table-striped table-bordered table-hover">
                 <thead>
                     <tr>
-                        <th class="display-5" scope="col">#</th>
-                        <th class="display-5" scope="col">Name</th>
-                        <th class="display-5" scope="col">Time</th>
+                        <th class="display-5 text-center" scope="col">#</th>
+                        <th class="display-5 text-center" scope="col">Name</th>
+                        <th class="display-5 text-center" scope="col">Time (min:s:ms)</th>
                     </tr>
                 </thead>
                 <tbody id="results">
